@@ -1,0 +1,31 @@
+{
+  "name": "sen4az",
+  "version": "0.0.1",
+  "description": "\"# project-lvl1-s204\"",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublish": "npm run build"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "author": "Semen Zadorozhniy",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sen4az/project-lvl1-s204.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sen4az/project-lvl1-s204/issues"
+  },
+  "homepage": "https://github.com/sen4az/project-lvl1-s204#readme"
+}
