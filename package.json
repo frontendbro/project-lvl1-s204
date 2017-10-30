@@ -19,7 +19,9 @@
     "babel-preset-env": "*",
     "babel-preset-stage-0": "*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sen4az/project-lvl1-s204.git"
