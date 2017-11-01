@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
 
-console.log('$ src/bin/brain-games.js \nWelcome to the Brain Games!');
+const randomNumb = Math.random();
+
+console.log('Welcome to Brain Games! \nAnswer "yes" if number even otherwise answer "no".');
 
 const actual = readlineSync.question('May I have your name? ');
 
