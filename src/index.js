@@ -1,7 +1,11 @@
 import readlineSync from 'readline-sync';
 
-const randomNumb = Math.random();
+export const welcome = () => {
+ console.log('Welcome to the Brain Games! \n');
+};
 
-const actual = readlineSync.question('May I have your name?');
+export const meetUser = () => {
+	const userName = readlineSync.question('May I have your name?: ');
+	console.log(`Hello, ${userName}! \n`);
+};
 
-console.log('Hello ${actual}');

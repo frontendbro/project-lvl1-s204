@@ -1,2 +1,6 @@
 #!/usr/bin/env node
-import index from '../../src';
+import { welcome, meetUser } from '../index';
+
+welcome();
+
+meetUser();
