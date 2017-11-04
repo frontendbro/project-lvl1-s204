@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-import { welcome, meetUser } from '../index';
+import { welcome, meetUser, question } from '../index';
 
 welcome();
 
 meetUser();
+
+question();
