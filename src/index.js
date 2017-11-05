@@ -23,7 +23,10 @@ export const getAnswer = () => {
   } else if (numRandom % 2 === 0 && answer === 'no') {
     console.log('Correct!');
   } else {
-    console.log(`'yes' is wrong answer ;(. Correct answer was 'no'. \n Let's try again, ${userName} !`);
+    console.log(`${answer} is wrong answer ;(. Correct answer was 'no'. \n Let's try again, ${userName} !`);
   }
 };
 
+export const finish = () => {
+  console.log(`Congratulations, ${userName}!`);
+};
